@@ -1,7 +1,8 @@
 /*
  * Programmer: Elliott Vince
  * Date: October 7, 2020
- * Purpose: Square roots and rounds a number
+ * Purpose: Square roots and rounds a number. The program will keep asking the user to input
+ * 				a new number if the chosen number is negative.
  */
 
 import java.text.DecimalFormat;
