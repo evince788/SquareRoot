@@ -1,7 +1,7 @@
 /*
- * Programmer:
- * Date:
- * Purpose: 
+ * Programmer: Elliott Vince
+ * Date: October 7, 2020
+ * Purpose: Square roots and rounds a number
  */
 
 import java.text.DecimalFormat;
@@ -17,10 +17,10 @@ public class SquareRoot {
         double radicand = input.nextDouble();
 
         // Check that the input is not negative
-        // TODO: Change this part of the program to repeatedly error check
-        if (radicand < 0) {
+        while (radicand < 0) {
             System.err.println("Invalid input!");
-            System.exit(1);
+            System.err.print("Enter a number to square root: ");
+            radicand = input.nextDouble();
         }
 
         // Calculate the circumference
