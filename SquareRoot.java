@@ -1,8 +1,8 @@
 /*
  * Programmer: Elliott Vince
  * Date: October 7, 2020
- * Purpose: Square roots and rounds a number. The program will keep asking the user to input
- * 				a new number if the chosen number is negative.
+ * Purpose: Square roots and rounds a number. The program will keep asking the 
+ * 				user to input a new number if the chosen number is negative.
  */
 
 import java.text.DecimalFormat;
@@ -32,6 +32,6 @@ public class SquareRoot {
 
         // Print the results
         System.out.println("The square root of " + formatter.format(radicand) + 
-                " is " + formatter.format(root) + ".");
+        		" is " + formatter.format(root) + ".");
     }
 }
